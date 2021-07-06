@@ -9,7 +9,7 @@ namespace Number.ConApp
 #pragma warning restore IDE0060 // Remove unused parameter
         {
             Console.WriteLine("Number App!");                    // Set as Startup Projekt
-            string input, output;
+            string input, output, output2;
             long number;
 
             //Eingabe (E)
@@ -35,14 +35,15 @@ namespace Number.ConApp
 
             if (Number.Logic.NumberProperty.IsPrime(number))
             {
-                output = $"{number} ist eine Primzahl";
+                output2 = $"{number} ist eine Primzahl";
             }
             else
             {
-                output = $"{number} ist KEINE Primzahl";
+                output2 = $"{number} ist KEINE Primzahl";
             }
 
-            Console.WriteLine( output);
+            Console.WriteLine(output);
+            Console.WriteLine(output2);
 
         }
     }
