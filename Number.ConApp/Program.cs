@@ -33,6 +33,15 @@ namespace Number.ConApp
 
             //Ausgabe
 
+            if (Number.Logic.NumberProperty.IsPrime(number))
+            {
+                output = $"{number} ist eine Primzahl";
+            }
+            else
+            {
+                output = $"{number} ist KEINE Primzahl";
+            }
+
             Console.WriteLine( output);
 
         }
