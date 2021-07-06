@@ -24,22 +24,22 @@ namespace Number.ConApp
 
             if (Number.Logic.NumberProperty.IsPerfect(number))
             {
-                output = $"{number} ist eine perfekte Zahl";
+                output = $"\t{number} ist eine perfekte Zahl";
             }
             else
             {
-                output = $"{number} ist KEINE perfekte Zahl";
+                output = $"\t{number} ist KEINE perfekte Zahl";
             }
 
             //Ausgabe
 
             if (Number.Logic.NumberProperty.IsPrime(number))
             {
-                output2 = $"{number} ist eine Primzahl";
+                output2 = $"\t{number} ist eine Primzahl";
             }
             else
             {
-                output2 = $"{number} ist KEINE Primzahl";
+                output2 = $"\t{number} ist KEINE Primzahl";
             }
 
             Console.WriteLine(output);
